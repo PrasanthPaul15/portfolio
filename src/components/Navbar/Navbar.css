@@ -1,0 +1,49 @@
+.logo{
+    border: 5px  solid  black;
+    padding: 4px;
+    width: 20px;
+    margin-left: 20px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height:70px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+
+.nav-item{
+    margin: 20px;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-item{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.link-item:hover{
+    color: skyblue;
+    top: 4px;
+}
+
+.hyper-link{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.hyper-link:hover{
+    text-decoration: none;
+    color: skyblue;
+    top: 4px;
+}
